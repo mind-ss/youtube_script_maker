@@ -7,10 +7,10 @@
 import sys
 sys.path.append('../src')
 
-from templates import create_review_template
+from templates import ProductReviewTemplate
 
 # 제품 리뷰 템플릿 생성
-template = create_review_template(
+template = ProductReviewTemplate(
     product_name="애플 에어팟 프로 2세대",
     keywords=["에어팟프로", "에어팟프로2세대", "무선이어폰", "노이즈캔슬링", "애플이어폰"]
 )

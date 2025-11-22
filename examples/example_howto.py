@@ -7,10 +7,10 @@
 import sys
 sys.path.append('../src')
 
-from templates import create_howto_template
+from templates import HowToTemplate
 
 # 노하우 템플릿 생성
-template = create_howto_template(
+template = HowToTemplate(
     topic="홈카페 인테리어",
     keywords=["홈카페", "카페인테리어", "홈카페꾸미기", "인테리어", "카페스타일"],
     difficulty="초급",

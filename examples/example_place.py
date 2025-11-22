@@ -7,10 +7,10 @@
 import sys
 sys.path.append('../src')
 
-from templates import create_place_template
+from templates import PlaceRecommendationTemplate
 
 # 장소 추천 템플릿 생성
-template = create_place_template(
+template = PlaceRecommendationTemplate(
     location="부산",
     keywords=["부산여행", "부산가볼만한곳", "부산맛집", "부산핫플", "부산명소"],
     recommendation_count=7

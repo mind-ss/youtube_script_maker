@@ -7,10 +7,10 @@
 import sys
 sys.path.append('../src')
 
-from templates import create_comparison_template
+from templates import ComparisonTemplate
 
 # 비교 템플릿 생성
-template = create_comparison_template(
+template = ComparisonTemplate(
     item_a="아이폰 15 Pro",
     item_b="갤럭시 S24 Ultra",
     keywords=["아이폰", "갤럭시", "스마트폰비교", "아이폰vs갤럭시", "플래그십폰"]
